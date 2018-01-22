@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  pinger:
+    image: pinger:0.1
+    shm_size: 750M
+
+  ponger:
+    image: ponger:0.1
+    shm_size: 750M
+
+  main:
+    image: main:0.1
+    shm_size: 750M
